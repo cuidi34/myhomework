@@ -1,354 +1,42 @@
 {
   "schemaVersion" : "1.0",
   "name" : "my_method-sdsm",
-  "variables" : [ "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\Answer.java", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\MapAnswer.java", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\MultiChoiceAnswer.java", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\OneChoiceAnswer.java", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\RankAnswer.java", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\TextAnswer.java", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\dao\\MapDAO.java", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\dao\\MultiDAO.java", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\dao\\OneDAO.java", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\dao\\PaperUnitDAO.java", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\dao\\RankDAO.java", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\dao\\TextDAO.java", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\exam\\EnglishExam.java", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\exam\\MathExam.java", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\paper\\Paper.java", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\paper\\PaperUnit.java", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\question\\ChoiceQuestion.java", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\question\\EssayQuestion.java", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\question\\MapQuestion.java", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\question\\Question.java", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\view\\UI.java" ],
+  "variables" : [ "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\Answer.java(answer.Answer.readAnswer)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\Answer.java(answer.Answer.writeAnswer)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\MapAnswer.java(answer.MapAnswer.getItemMap)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\MapAnswer.java(answer.MapAnswer.readAnswer)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\MapAnswer.java(answer.MapAnswer.setItemMap)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\MapAnswer.java(answer.MapAnswer.writeAnswer)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\MultiChoiceAnswer.java(answer.MultiChoiceAnswer.getSelectItemList)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\MultiChoiceAnswer.java(answer.MultiChoiceAnswer.readAnswer)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\MultiChoiceAnswer.java(answer.MultiChoiceAnswer.setSelectItemList)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\MultiChoiceAnswer.java(answer.MultiChoiceAnswer.writeAnswer)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\OneChoiceAnswer.java(answer.OneChoiceAnswer.getSelectItem)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\OneChoiceAnswer.java(answer.OneChoiceAnswer.readAnswer)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\OneChoiceAnswer.java(answer.OneChoiceAnswer.setSelectItem)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\OneChoiceAnswer.java(answer.OneChoiceAnswer.writeAnswer)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\RankAnswer.java(answer.RankAnswer.getRankedItemList)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\RankAnswer.java(answer.RankAnswer.readAnswer)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\RankAnswer.java(answer.RankAnswer.setRankedItemList)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\RankAnswer.java(answer.RankAnswer.writeAnswer)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\TextAnswer.java(answer.TextAnswer.getTextAnswer)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\TextAnswer.java(answer.TextAnswer.readAnswer)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\TextAnswer.java(answer.TextAnswer.setTextAnswer)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\answer\\TextAnswer.java(answer.TextAnswer.writeAnswer)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\dao\\MapDAO.java(dao.MapDAO.add)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\dao\\MapDAO.java(dao.MapDAO.save)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\dao\\MultiDAO.java(dao.MultiDAO.add)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\dao\\MultiDAO.java(dao.MultiDAO.save)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\dao\\OneDAO.java(dao.OneDAO.add)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\dao\\OneDAO.java(dao.OneDAO.save)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\dao\\PaperUnitDAO.java(dao.PaperUnitDAO.add)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\dao\\PaperUnitDAO.java(dao.PaperUnitDAO.save)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\dao\\RankDAO.java(dao.RankDAO.add)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\dao\\RankDAO.java(dao.RankDAO.save)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\dao\\TextDAO.java(dao.TextDAO.add)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\dao\\TextDAO.java(dao.TextDAO.save)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\exam\\EnglishExam.java(exam.EnglishExam.create)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\exam\\EnglishExam.java(exam.EnglishExam.read)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\exam\\EnglishExam.java(exam.EnglishExam.write)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\exam\\MathExam.java(exam.MathExam.create)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\exam\\MathExam.java(exam.MathExam.read)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\exam\\MathExam.java(exam.MathExam.write)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\paper\\Paper.java(paper.Paper.create)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\paper\\Paper.java(paper.Paper.getUnitList)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\paper\\Paper.java(paper.Paper.read)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\paper\\Paper.java(paper.Paper.setUnitList)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\paper\\Paper.java(paper.Paper.write)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\paper\\PaperUnit.java(paper.PaperUnit.PaperUnit)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\paper\\PaperUnit.java(paper.PaperUnit.getAnswer)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\paper\\PaperUnit.java(paper.PaperUnit.getQuestion)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\paper\\PaperUnit.java(paper.PaperUnit.getsAnswer)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\paper\\PaperUnit.java(paper.PaperUnit.setAnswer)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\paper\\PaperUnit.java(paper.PaperUnit.setQuestion)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\paper\\PaperUnit.java(paper.PaperUnit.setsAnswer)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\question\\ChoiceQuestion.java(question.ChoiceQuestion.getChoiceList)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\question\\ChoiceQuestion.java(question.ChoiceQuestion.readQuestion)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\question\\ChoiceQuestion.java(question.ChoiceQuestion.setChoiceList)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\question\\ChoiceQuestion.java(question.ChoiceQuestion.writeQuestion)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\question\\EssayQuestion.java(question.EssayQuestion.readQuestion)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\question\\EssayQuestion.java(question.EssayQuestion.writeQuestion)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\question\\MapQuestion.java(question.MapQuestion.getLeftChoiceList)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\question\\MapQuestion.java(question.MapQuestion.getRightChoiceList)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\question\\MapQuestion.java(question.MapQuestion.readQuestion)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\question\\MapQuestion.java(question.MapQuestion.setLeftChoiceList)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\question\\MapQuestion.java(question.MapQuestion.setRightChoiceList)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\question\\MapQuestion.java(question.MapQuestion.writeQuestion)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\question\\Question.java(question.Question.getContent)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\question\\Question.java(question.Question.readQuestion)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\question\\Question.java(question.Question.setContent)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\question\\Question.java(question.Question.writeQuestion)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\view\\UI.java(view.UI.getPaper)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\view\\UI.java(view.UI.read)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\view\\UI.java(view.UI.score)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\view\\UI.java(view.UI.setPaper)", "C:\\Users\\cuidi\\Desktop\\homework-project\\code\\src\\view\\UI.java(view.UI.write)" ],
   "cells" : [ {
-    "src" : 7,
-    "dest" : 15,
+    "src" : 34,
+    "dest" : 22,
     "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Return" : 1.0,
-      "Create" : 1.0,
-      "Parameter" : 1.0
+      "Call" : 1.0
     }
   }, {
-    "src" : 1,
-    "dest" : 0,
+    "src" : 34,
+    "dest" : 24,
     "values" : {
-      "Extend" : 1.0
+      "Call" : 1.0
     }
   }, {
-    "src" : 7,
-    "dest" : 16,
+    "src" : 34,
+    "dest" : 26,
     "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Create" : 1.0
+      "Call" : 1.0
     }
   }, {
-    "src" : 5,
-    "dest" : 0,
+    "src" : 37,
+    "dest" : 24,
     "values" : {
-      "Extend" : 1.0
+      "Call" : 1.0
     }
   }, {
-    "src" : 6,
-    "dest" : 1,
+    "src" : 37,
+    "dest" : 22,
     "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Create" : 2.0
+      "Call" : 1.0
     }
   }, {
-    "src" : 16,
-    "dest" : 19,
+    "src" : 37,
+    "dest" : 32,
     "values" : {
-      "Extend" : 1.0
-    }
-  }, {
-    "src" : 12,
-    "dest" : 8,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 13,
-    "dest" : 15,
-    "values" : {
-      "Import" : 1.0,
-      "Use" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 12,
-    "dest" : 7,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 12,
-    "dest" : 6,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 10,
-    "dest" : 15,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Return" : 1.0,
-      "Create" : 1.0,
-      "Parameter" : 1.0
-    }
-  }, {
-    "src" : 10,
-    "dest" : 16,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
-    "src" : 7,
-    "dest" : 9,
-    "values" : {
-      "Implement" : 1.0
-    }
-  }, {
-    "src" : 18,
-    "dest" : 19,
-    "values" : {
-      "Extend" : 1.0
-    }
-  }, {
-    "src" : 2,
-    "dest" : 0,
-    "values" : {
-      "Extend" : 1.0
-    }
-  }, {
-    "src" : 11,
-    "dest" : 5,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Create" : 2.0
-    }
-  }, {
-    "src" : 8,
-    "dest" : 15,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Return" : 1.0,
-      "Create" : 1.0,
-      "Parameter" : 1.0
-    }
-  }, {
-    "src" : 8,
-    "dest" : 16,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
-    "src" : 7,
-    "dest" : 2,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Create" : 2.0
-    }
-  }, {
-    "src" : 11,
-    "dest" : 17,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
-    "src" : 17,
-    "dest" : 19,
-    "values" : {
-      "Extend" : 1.0
-    }
-  }, {
-    "src" : 11,
-    "dest" : 15,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Return" : 1.0,
-      "Create" : 1.0,
-      "Parameter" : 1.0
-    }
-  }, {
-    "src" : 11,
-    "dest" : 9,
-    "values" : {
-      "Implement" : 1.0
-    }
-  }, {
-    "src" : 6,
-    "dest" : 9,
-    "values" : {
-      "Implement" : 1.0
-    }
-  }, {
-    "src" : 10,
-    "dest" : 4,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Create" : 2.0
-    }
-  }, {
-    "src" : 14,
-    "dest" : 15,
-    "values" : {
-      "Use" : 2.0
-    }
-  }, {
-    "src" : 3,
-    "dest" : 0,
-    "values" : {
-      "Extend" : 1.0
-    }
-  }, {
-    "src" : 8,
-    "dest" : 3,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Create" : 2.0
-    }
-  }, {
-    "src" : 15,
-    "dest" : 0,
-    "values" : {
-      "Import" : 1.0,
-      "Return" : 2.0,
-      "Use" : 3.0,
-      "Parameter" : 4.0,
-      "Contain" : 2.0
-    }
-  }, {
-    "src" : 20,
-    "dest" : 14,
-    "values" : {
-      "Import" : 1.0,
-      "Return" : 1.0,
-      "Use" : 1.0,
-      "Parameter" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 10,
-    "dest" : 9,
-    "values" : {
-      "Implement" : 1.0
-    }
-  }, {
-    "src" : 0,
-    "dest" : 19,
-    "values" : {
-      "Import" : 1.0
-    }
-  }, {
-    "src" : 12,
-    "dest" : 15,
-    "values" : {
-      "Import" : 1.0,
-      "Use" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 12,
-    "dest" : 14,
-    "values" : {
-      "Import" : 1.0,
-      "Extend" : 1.0
-    }
-  }, {
-    "src" : 15,
-    "dest" : 19,
-    "values" : {
-      "Import" : 1.0,
-      "Return" : 1.0,
-      "Use" : 2.0,
-      "Parameter" : 2.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 13,
-    "dest" : 11,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 13,
-    "dest" : 14,
-    "values" : {
-      "Import" : 1.0,
-      "Extend" : 1.0
-    }
-  }, {
-    "src" : 4,
-    "dest" : 0,
-    "values" : {
-      "Extend" : 1.0
-    }
-  }, {
-    "src" : 6,
-    "dest" : 15,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Return" : 1.0,
-      "Create" : 1.0,
-      "Parameter" : 1.0
-    }
-  }, {
-    "src" : 8,
-    "dest" : 9,
-    "values" : {
-      "Implement" : 1.0
-    }
-  }, {
-    "src" : 13,
-    "dest" : 7,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 6,
-    "dest" : 18,
-    "values" : {
-      "Call" : 1.0,
-      "Import" : 1.0,
-      "Create" : 1.0
-    }
-  }, {
-    "src" : 9,
-    "dest" : 15,
-    "values" : {
-      "Import" : 1.0,
-      "Return" : 1.0,
-      "Parameter" : 1.0
-    }
-  }, {
-    "src" : 13,
-    "dest" : 6,
-    "values" : {
-      "Call" : 2.0,
-      "Import" : 1.0,
-      "Create" : 1.0,
-      "Contain" : 1.0
-    }
-  }, {
-    "src" : 13,
-    "dest" : 8,
-    "values" : {
-      "Import" : 1.0
+      "Call" : 1.0
     }
   } ]
 }
